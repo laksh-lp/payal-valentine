@@ -32,9 +32,24 @@
             cursor: pointer;
         }
 
+        
+        .gallery {
+    margin-top: 50px;
+}
+
+.gallery img {
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+        
         button:hover {
             background-color: #ffe6f0;
         }
+        
     </style>
 </head>
 <body>
@@ -48,6 +63,14 @@
 
     <button onclick="showMessage()">Click for a Surprise 💌</button>
 
+<div class="gallery">
+    <h2>Our Beautiful Memories ❤️</h2>
+    <img src="p1.jpeg" alt="Memory 1">
+    <img src="p2.jpeg" alt="Memory 2">
+    <img src="p3.jpeg" alt="Memory 3">
+</div>
+
+    
     <script>
         function showMessage() {
             alert("I can't wait to marry you, Payal. You are my forever Valentine ❤️");
